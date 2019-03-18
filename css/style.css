@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    color: white;
+    margin: 0 8px;
+    text-decoration: none;
+}
+
+.section{
+    height: 100%;
+    background-color: green;
+}
+
+.section:nth-child(odd){
+    background-color: blue;
+}
